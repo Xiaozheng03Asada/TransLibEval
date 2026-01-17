@@ -1,0 +1,37 @@
+/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/Applications/CLion.app/Contents/bin/ninja/mac/aarch64/ninja -G Ninja -S /Users/asada/Documents/MyWorkplace/doautotest/gpt3.5_python_to_cpp_autotest/FunctionBuildTest -B /Users/asada/Documents/MyWorkplace/doautotest/gpt3.5_python_to_cpp_autotest/FunctionBuildTest/cmake-build-debug
+-- The C compiler identification is AppleClang 14.0.0.14000029
+-- The CXX compiler identification is AppleClang 14.0.0.14000029
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /Library/Developer/CommandLineTools/usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /Library/Developer/CommandLineTools/usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found OpenMP_C: -Xclang -fopenmp (found version "5.0")
+-- Found OpenMP_CXX: -Xclang -fopenmp (found version "5.0")
+-- Found OpenMP: TRUE (found version "5.0")
+CMake Warning (dev) at /Users/asada/vcpkg/installed/arm64-osx/share/boost/vcpkg-cmake-wrapper.cmake:3 (_find_package):
+  Policy CMP0167 is not set: The FindBoost module is removed.  Run "cmake
+  --help-policy CMP0167" for policy details.  Use the cmake_policy command to
+  set the policy and suppress this warning.
+
+Call Stack (most recent call first):
+  /Users/asada/vcpkg/scripts/buildsystems/vcpkg.cmake:813 (include)
+  CMakeLists.txt:13 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Found Boost: /Users/asada/vcpkg/installed/arm64-osx/share/boost/BoostConfig.cmake (found version "1.86.0")
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE
+-- Found GTest: /Users/asada/vcpkg/installed/arm64-osx/share/gtest/GTestConfig.cmake (found version "1.16.0")
+-- Found nlohmann_json: /Users/asada/vcpkg/installed/arm64-osx/share/nlohmann_json/nlohmann_jsonConfig.cmake (found version "3.11.3")
+-- Performing Test arch_native_supported
+-- Performing Test arch_native_supported - Failed
+-- Configuring done (1.3s)
+-- Generating done (0.0s)
+-- Build files have been written to: /Users/asada/Documents/MyWorkplace/doautotest/gpt3.5_python_to_cpp_autotest/FunctionBuildTest/cmake-build-debug

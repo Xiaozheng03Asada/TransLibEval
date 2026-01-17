@@ -1,0 +1,3 @@
+/Users/asada/Documents/MyWorkplace/doautotest/deepseekv3_java_to_cpp_autotest/FunctionBuildTest/build/CMakeFiles/my_project.dir
+/Users/asada/Documents/MyWorkplace/doautotest/deepseekv3_java_to_cpp_autotest/FunctionBuildTest/build/CMakeFiles/edit_cache.dir
+/Users/asada/Documents/MyWorkplace/doautotest/deepseekv3_java_to_cpp_autotest/FunctionBuildTest/build/CMakeFiles/rebuild_cache.dir

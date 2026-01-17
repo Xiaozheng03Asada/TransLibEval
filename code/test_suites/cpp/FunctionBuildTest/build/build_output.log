@@ -1,0 +1,261 @@
+[1/77] Building CXX object CMakeFiles/my_project.dir/src/function_Polars_filter.cpp.o
+[2/77] Building CXX object CMakeFiles/my_project.dir/src/function_Schema_And.cpp.o
+[3/77] Building CXX object CMakeFiles/my_project.dir/src/function_Polars_sum.cpp.o
+[4/77] Building CXX object CMakeFiles/my_project.dir/src/function_Polars_mean.cpp.o
+[5/77] Building CXX object CMakeFiles/my_project.dir/src/function_Polars_max.cpp.o
+[6/77] Building CXX object CMakeFiles/my_project.dir/src/function_Cerberus_Validator_validate.cpp.o
+[7/77] Building CXX object CMakeFiles/my_project.dir/src/function_Cerberus_Validator_schema.cpp.o
+FAILED: CMakeFiles/my_project.dir/src/function_Cerberus_Validator_schema.cpp.o 
+/Library/Developer/CommandLineTools/usr/bin/c++  -I/Users/asada/vcpkg/installed/arm64-osx/include -I/Users/asada/vcpkg/installed/arm64-osx/share/rapidjson/../../include -I/Users/asada/vcpkg/installed/arm64-osx/include/eigen3 -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=12.5 -MD -MT CMakeFiles/my_project.dir/src/function_Cerberus_Validator_schema.cpp.o -MF CMakeFiles/my_project.dir/src/function_Cerberus_Validator_schema.cpp.o.d -o CMakeFiles/my_project.dir/src/function_Cerberus_Validator_schema.cpp.o -c /Users/asada/Documents/MyWorkplace/doautotest/deepseekv3_java_to_cpp_autotest/FunctionBuildTest/src/function_Cerberus_Validator_schema.cpp
+/Users/asada/Documents/MyWorkplace/doautotest/deepseekv3_java_to_cpp_autotest/FunctionBuildTest/src/function_Cerberus_Validator_schema.cpp:6:10: fatal error: 'json/json.h' file not found
+#include <json/json.h>
+         ^~~~~~~~~~~~~
+1 error generated.
+[8/77] Building CXX object CMakeFiles/my_project.dir/src/function_Schema_is_valid.cpp.o
+[9/77] Building CXX object CMakeFiles/my_project.dir/src/function_algorithms_binary_search.cpp.o
+[10/77] Building CXX object CMakeFiles/my_project.dir/src/function_Cerberus_Validator_extend.cpp.o
+FAILED: CMakeFiles/my_project.dir/src/function_Cerberus_Validator_extend.cpp.o 
+/Library/Developer/CommandLineTools/usr/bin/c++  -I/Users/asada/vcpkg/installed/arm64-osx/include -I/Users/asada/vcpkg/installed/arm64-osx/share/rapidjson/../../include -I/Users/asada/vcpkg/installed/arm64-osx/include/eigen3 -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=12.5 -MD -MT CMakeFiles/my_project.dir/src/function_Cerberus_Validator_extend.cpp.o -MF CMakeFiles/my_project.dir/src/function_Cerberus_Validator_extend.cpp.o.d -o CMakeFiles/my_project.dir/src/function_Cerberus_Validator_extend.cpp.o -c /Users/asada/Documents/MyWorkplace/doautotest/deepseekv3_java_to_cpp_autotest/FunctionBuildTest/src/function_Cerberus_Validator_extend.cpp
+/Users/asada/Documents/MyWorkplace/doautotest/deepseekv3_java_to_cpp_autotest/FunctionBuildTest/src/function_Cerberus_Validator_extend.cpp:6:10: fatal error: 'validator.hpp' file not found
+#include <validator.hpp>
+         ^~~~~~~~~~~~~~~
+1 error generated.
+[11/77] Building CXX object CMakeFiles/my_project.dir/src/function_algorithms_search_linear_search.cpp.o
+[12/77] Building CXX object CMakeFiles/my_project.dir/src/function_algorithms_heap_heapify.cpp.o
+[13/77] Building CXX object CMakeFiles/my_project.dir/src/function_algorithms_sort_quick_sort.cpp.o
+[14/77] Building CXX object CMakeFiles/my_project.dir/src/function_Schema_validate.cpp.o
+[15/77] Building CXX object CMakeFiles/my_project.dir/src/function_boltons_strutils_slugify.cpp.o
+FAILED: CMakeFiles/my_project.dir/src/function_boltons_strutils_slugify.cpp.o 
+/Library/Developer/CommandLineTools/usr/bin/c++  -I/Users/asada/vcpkg/installed/arm64-osx/include -I/Users/asada/vcpkg/installed/arm64-osx/share/rapidjson/../../include -I/Users/asada/vcpkg/installed/arm64-osx/include/eigen3 -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=12.5 -MD -MT CMakeFiles/my_project.dir/src/function_boltons_strutils_slugify.cpp.o -MF CMakeFiles/my_project.dir/src/function_boltons_strutils_slugify.cpp.o.d -o CMakeFiles/my_project.dir/src/function_boltons_strutils_slugify.cpp.o -c /Users/asada/Documents/MyWorkplace/doautotest/deepseekv3_java_to_cpp_autotest/FunctionBuildTest/src/function_boltons_strutils_slugify.cpp
+/Users/asada/Documents/MyWorkplace/doautotest/deepseekv3_java_to_cpp_autotest/FunctionBuildTest/src/function_boltons_strutils_slugify.cpp:4:10: fatal error: 'slugify.h' file not found
+#include "slugify.h" // Assuming a similar library exists in C++
+         ^~~~~~~~~~~
+1 error generated.
+[16/77] Building CXX object CMakeFiles/my_project.dir/src/function_catboost_predict.cpp.o
+FAILED: CMakeFiles/my_project.dir/src/function_catboost_predict.cpp.o 
+/Library/Developer/CommandLineTools/usr/bin/c++  -I/Users/asada/vcpkg/installed/arm64-osx/include -I/Users/asada/vcpkg/installed/arm64-osx/share/rapidjson/../../include -I/Users/asada/vcpkg/installed/arm64-osx/include/eigen3 -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=12.5 -MD -MT CMakeFiles/my_project.dir/src/function_catboost_predict.cpp.o -MF CMakeFiles/my_project.dir/src/function_catboost_predict.cpp.o.d -o CMakeFiles/my_project.dir/src/function_catboost_predict.cpp.o -c /Users/asada/Documents/MyWorkplace/doautotest/deepseekv3_java_to_cpp_autotest/FunctionBuildTest/src/function_catboost_predict.cpp
+/Users/asada/Documents/MyWorkplace/doautotest/deepseekv3_java_to_cpp_autotest/FunctionBuildTest/src/function_catboost_predict.cpp:3:10: fatal error: 'weka/core/Instances.h' file not found
+#include <weka/core/Instances.h>
+         ^~~~~~~~~~~~~~~~~~~~~~~
+1 error generated.
+[17/77] Building CXX object CMakeFiles/my_project.dir/src/function_Schema_Tuple.cpp.o
+FAILED: CMakeFiles/my_project.dir/src/function_Schema_Tuple.cpp.o 
+/Library/Developer/CommandLineTools/usr/bin/c++  -I/Users/asada/vcpkg/installed/arm64-osx/include -I/Users/asada/vcpkg/installed/arm64-osx/share/rapidjson/../../include -I/Users/asada/vcpkg/installed/arm64-osx/include/eigen3 -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=12.5 -MD -MT CMakeFiles/my_project.dir/src/function_Schema_Tuple.cpp.o -MF CMakeFiles/my_project.dir/src/function_Schema_Tuple.cpp.o.d -o CMakeFiles/my_project.dir/src/function_Schema_Tuple.cpp.o -c /Users/asada/Documents/MyWorkplace/doautotest/deepseekv3_java_to_cpp_autotest/FunctionBuildTest/src/function_Schema_Tuple.cpp
+/Users/asada/Documents/MyWorkplace/doautotest/deepseekv3_java_to_cpp_autotest/FunctionBuildTest/src/function_Schema_Tuple.cpp:45:41: error: no member named 'json_schema' in namespace 'nlohmann'
+                auto schema = nlohmann::json_schema::json_validator(jsonSchema);
+                              ~~~~~~~~~~^
+1 error generated.
+[18/77] Building CXX object CMakeFiles/my_project.dir/src/function_Cerberus_Validator_normalized.cpp.o
+[19/77] Building CXX object CMakeFiles/my_project.dir/src/function_boltons_iterutils_chunked.cpp.o
+[20/77] Building CXX object CMakeFiles/my_project.dir/src/function_boltons_iterutils_flatten.cpp.o
+[21/77] Building CXX object CMakeFiles/my_project.dir/src/function_catboost_importance.cpp.o
+[22/77] Building CXX object CMakeFiles/my_project.dir/src/function_boltons_cacheutils_LRU.cpp.o
+[23/77] Building CXX object CMakeFiles/my_project.dir/src/function_catboost_proba.cpp.o
+FAILED: CMakeFiles/my_project.dir/src/function_catboost_proba.cpp.o 
+/Library/Developer/CommandLineTools/usr/bin/c++  -I/Users/asada/vcpkg/installed/arm64-osx/include -I/Users/asada/vcpkg/installed/arm64-osx/share/rapidjson/../../include -I/Users/asada/vcpkg/installed/arm64-osx/include/eigen3 -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=12.5 -MD -MT CMakeFiles/my_project.dir/src/function_catboost_proba.cpp.o -MF CMakeFiles/my_project.dir/src/function_catboost_proba.cpp.o.d -o CMakeFiles/my_project.dir/src/function_catboost_proba.cpp.o -c /Users/asada/Documents/MyWorkplace/doautotest/deepseekv3_java_to_cpp_autotest/FunctionBuildTest/src/function_catboost_proba.cpp
+/Users/asada/Documents/MyWorkplace/doautotest/deepseekv3_java_to_cpp_autotest/FunctionBuildTest/src/function_catboost_proba.cpp:3:10: fatal error: 'weka/classifiers/functions/Logistic.h' file not found
+#include <weka/classifiers/functions/Logistic.h>
+         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1 error generated.
+[24/77] Building CXX object CMakeFiles/my_project.dir/src/function_catboost_params.cpp.o
+[25/77] Building CXX object CMakeFiles/my_project.dir/src/function_functools_partial.cpp.o
+[26/77] Building CXX object CMakeFiles/my_project.dir/src/function_collections_deque.cpp.o
+[27/77] Building CXX object CMakeFiles/my_project.dir/src/function_datetime_now.cpp.o
+[28/77] Building CXX object CMakeFiles/my_project.dir/src/function_datetime_strftime.cpp.o
+[29/77] Building CXX object CMakeFiles/my_project.dir/src/function_datetime_strptime.cpp.o
+[30/77] Building CXX object CMakeFiles/my_project.dir/src/function_collections_defaultdict.cpp.o
+[31/77] Building CXX object CMakeFiles/my_project.dir/src/function_datetime_timedelta.cpp.o
+[32/77] Building CXX object CMakeFiles/my_project.dir/src/function_collections_ordereddict.cpp.o
+[33/77] Building CXX object CMakeFiles/my_project.dir/src/function_functools_cmp_to_key.cpp.o
+[34/77] Building CXX object CMakeFiles/my_project.dir/src/function_collections_counter.cpp.o
+[35/77] Building CXX object CMakeFiles/my_project.dir/src/function_functools_singledispatch.cpp.o
+[36/77] Building CXX object CMakeFiles/my_project.dir/src/function_itertools_cycle.cpp.o
+[37/77] Building CXX object CMakeFiles/my_project.dir/src/function_itertools_repeat.cpp.o
+[38/77] Building CXX object CMakeFiles/my_project.dir/src/function_joblib_delayed.cpp.o
+[39/77] Building CXX object CMakeFiles/my_project.dir/src/function_joblib_hashing_hash.cpp.o
+/Users/asada/Documents/MyWorkplace/doautotest/deepseekv3_java_to_cpp_autotest/FunctionBuildTest/src/function_joblib_hashing_hash.cpp:11:9: warning: 'MD5' is deprecated [-Wdeprecated-declarations]
+        MD5((unsigned char*)inputStr.c_str(), inputStr.size(), digest);
+        ^
+/Users/asada/vcpkg/installed/arm64-osx/include/openssl/md5.h:52:1: note: 'MD5' has been explicitly marked deprecated here
+OSSL_DEPRECATEDIN_3_0 unsigned char *MD5(const unsigned char *d, size_t n,
+^
+/Users/asada/vcpkg/installed/arm64-osx/include/openssl/macros.h:206:49: note: expanded from macro 'OSSL_DEPRECATEDIN_3_0'
+#   define OSSL_DEPRECATEDIN_3_0                OSSL_DEPRECATED(3.0)
+                                                ^
+/Users/asada/vcpkg/installed/arm64-osx/include/openssl/macros.h:62:52: note: expanded from macro 'OSSL_DEPRECATED'
+#     define OSSL_DEPRECATED(since) __attribute__((deprecated))
+                                                   ^
+1 warning generated.
+[40/77] Building CXX object CMakeFiles/my_project.dir/src/function_functools_wraps.cpp.o
+[41/77] Building CXX object CMakeFiles/my_project.dir/src/function_itertools_product.cpp.o
+[42/77] Building CXX object CMakeFiles/my_project.dir/src/function_joblib_memory.cpp.o
+[43/77] Building CXX object CMakeFiles/my_project.dir/src/function_itertools_permutations.cpp.o
+[44/77] Building CXX object CMakeFiles/my_project.dir/src/function_levenshtein_distance.cpp.o
+FAILED: CMakeFiles/my_project.dir/src/function_levenshtein_distance.cpp.o 
+/Library/Developer/CommandLineTools/usr/bin/c++  -I/Users/asada/vcpkg/installed/arm64-osx/include -I/Users/asada/vcpkg/installed/arm64-osx/share/rapidjson/../../include -I/Users/asada/vcpkg/installed/arm64-osx/include/eigen3 -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=12.5 -MD -MT CMakeFiles/my_project.dir/src/function_levenshtein_distance.cpp.o -MF CMakeFiles/my_project.dir/src/function_levenshtein_distance.cpp.o.d -o CMakeFiles/my_project.dir/src/function_levenshtein_distance.cpp.o -c /Users/asada/Documents/MyWorkplace/doautotest/deepseekv3_java_to_cpp_autotest/FunctionBuildTest/src/function_levenshtein_distance.cpp
+/Users/asada/Documents/MyWorkplace/doautotest/deepseekv3_java_to_cpp_autotest/FunctionBuildTest/src/function_levenshtein_distance.cpp:9:55: error: implicit instantiation of undefined template 'std::vector<unsigned long>'
+        std::vector<std::vector<size_t>> dp(len1 + 1, std::vector<size_t>(len2 + 1));
+                                                      ^
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/iosfwd:259:28: note: template is declared here
+class _LIBCPP_TEMPLATE_VIS vector;
+                           ^
+/Users/asada/Documents/MyWorkplace/doautotest/deepseekv3_java_to_cpp_autotest/FunctionBuildTest/src/function_levenshtein_distance.cpp:9:42: error: implicit instantiation of undefined template 'std::vector<std::vector<unsigned long>>'
+        std::vector<std::vector<size_t>> dp(len1 + 1, std::vector<size_t>(len2 + 1));
+                                         ^
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/iosfwd:259:28: note: template is declared here
+class _LIBCPP_TEMPLATE_VIS vector;
+                           ^
+2 errors generated.
+[45/77] Building CXX object CMakeFiles/my_project.dir/src/function_joblib_parallel.cpp.o
+FAILED: CMakeFiles/my_project.dir/src/function_joblib_parallel.cpp.o 
+/Library/Developer/CommandLineTools/usr/bin/c++  -I/Users/asada/vcpkg/installed/arm64-osx/include -I/Users/asada/vcpkg/installed/arm64-osx/share/rapidjson/../../include -I/Users/asada/vcpkg/installed/arm64-osx/include/eigen3 -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=12.5 -MD -MT CMakeFiles/my_project.dir/src/function_joblib_parallel.cpp.o -MF CMakeFiles/my_project.dir/src/function_joblib_parallel.cpp.o.d -o CMakeFiles/my_project.dir/src/function_joblib_parallel.cpp.o -c /Users/asada/Documents/MyWorkplace/doautotest/deepseekv3_java_to_cpp_autotest/FunctionBuildTest/src/function_joblib_parallel.cpp
+/Users/asada/Documents/MyWorkplace/doautotest/deepseekv3_java_to_cpp_autotest/FunctionBuildTest/src/function_joblib_parallel.cpp:27:29: error: no member named 'set_value' in 'std::future<int>'
+                    future->set_value(val * val);
+                    ~~~~~~~~^
+/Users/asada/Documents/MyWorkplace/doautotest/deepseekv3_java_to_cpp_autotest/FunctionBuildTest/src/function_joblib_parallel.cpp:30:29: error: no member named 'set_value' in 'std::future<int>'
+                    future->set_value(static_cast<int>(std::pow(val, 2)));
+                    ~~~~~~~~^
+/Users/asada/Documents/MyWorkplace/doautotest/deepseekv3_java_to_cpp_autotest/FunctionBuildTest/src/function_joblib_parallel.cpp:33:29: error: no member named 'set_value' in 'std::future<int>'
+                    future->set_value(static_cast<int>(std::pow(val, 2)));
+                    ~~~~~~~~^
+3 errors generated.
+[46/77] Building CXX object CMakeFiles/my_project.dir/src/function_levenshtein_hamming.cpp.o
+[47/77] Building CXX object CMakeFiles/my_project.dir/src/function_networkx_minimum_spanning_tree.cpp.o
+FAILED: CMakeFiles/my_project.dir/src/function_networkx_minimum_spanning_tree.cpp.o 
+/Library/Developer/CommandLineTools/usr/bin/c++  -I/Users/asada/vcpkg/installed/arm64-osx/include -I/Users/asada/vcpkg/installed/arm64-osx/share/rapidjson/../../include -I/Users/asada/vcpkg/installed/arm64-osx/include/eigen3 -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=12.5 -MD -MT CMakeFiles/my_project.dir/src/function_networkx_minimum_spanning_tree.cpp.o -MF CMakeFiles/my_project.dir/src/function_networkx_minimum_spanning_tree.cpp.o.d -o CMakeFiles/my_project.dir/src/function_networkx_minimum_spanning_tree.cpp.o -c /Users/asada/Documents/MyWorkplace/doautotest/deepseekv3_java_to_cpp_autotest/FunctionBuildTest/src/function_networkx_minimum_spanning_tree.cpp
+/Users/asada/Documents/MyWorkplace/doautotest/deepseekv3_java_to_cpp_autotest/FunctionBuildTest/src/function_networkx_minimum_spanning_tree.cpp:1:10: fatal error: 'jgrapht/jgrapht_all.h' file not found
+#include <jgrapht/jgrapht_all.h>
+         ^~~~~~~~~~~~~~~~~~~~~~~
+1 error generated.
+[48/77] Building CXX object CMakeFiles/my_project.dir/src/function_nltk_stem_PorterStemmer.cpp.o
+FAILED: CMakeFiles/my_project.dir/src/function_nltk_stem_PorterStemmer.cpp.o 
+/Library/Developer/CommandLineTools/usr/bin/c++  -I/Users/asada/vcpkg/installed/arm64-osx/include -I/Users/asada/vcpkg/installed/arm64-osx/share/rapidjson/../../include -I/Users/asada/vcpkg/installed/arm64-osx/include/eigen3 -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=12.5 -MD -MT CMakeFiles/my_project.dir/src/function_nltk_stem_PorterStemmer.cpp.o -MF CMakeFiles/my_project.dir/src/function_nltk_stem_PorterStemmer.cpp.o.d -o CMakeFiles/my_project.dir/src/function_nltk_stem_PorterStemmer.cpp.o -c /Users/asada/Documents/MyWorkplace/doautotest/deepseekv3_java_to_cpp_autotest/FunctionBuildTest/src/function_nltk_stem_PorterStemmer.cpp
+/Users/asada/Documents/MyWorkplace/doautotest/deepseekv3_java_to_cpp_autotest/FunctionBuildTest/src/function_nltk_stem_PorterStemmer.cpp:1:10: fatal error: 'libstemmer.h' file not found
+#include <libstemmer.h>
+         ^~~~~~~~~~~~~~
+1 error generated.
+[49/77] Building CXX object CMakeFiles/my_project.dir/src/function_levenshtein_editops.cpp.o
+[50/77] Building CXX object CMakeFiles/my_project.dir/src/function_numpy_divide.cpp.o
+FAILED: CMakeFiles/my_project.dir/src/function_numpy_divide.cpp.o 
+/Library/Developer/CommandLineTools/usr/bin/c++  -I/Users/asada/vcpkg/installed/arm64-osx/include -I/Users/asada/vcpkg/installed/arm64-osx/share/rapidjson/../../include -I/Users/asada/vcpkg/installed/arm64-osx/include/eigen3 -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=12.5 -MD -MT CMakeFiles/my_project.dir/src/function_numpy_divide.cpp.o -MF CMakeFiles/my_project.dir/src/function_numpy_divide.cpp.o.d -o CMakeFiles/my_project.dir/src/function_numpy_divide.cpp.o -c /Users/asada/Documents/MyWorkplace/doautotest/deepseekv3_java_to_cpp_autotest/FunctionBuildTest/src/function_numpy_divide.cpp
+/Users/asada/Documents/MyWorkplace/doautotest/deepseekv3_java_to_cpp_autotest/FunctionBuildTest/src/function_numpy_divide.cpp:6:32: error: unknown type name 'Number'
+    static double divide(const Number& arr1, const Number& arr2, const Number& scalar) {
+                               ^
+/Users/asada/Documents/MyWorkplace/doautotest/deepseekv3_java_to_cpp_autotest/FunctionBuildTest/src/function_numpy_divide.cpp:6:52: error: unknown type name 'Number'
+    static double divide(const Number& arr1, const Number& arr2, const Number& scalar) {
+                                                   ^
+/Users/asada/Documents/MyWorkplace/doautotest/deepseekv3_java_to_cpp_autotest/FunctionBuildTest/src/function_numpy_divide.cpp:6:72: error: unknown type name 'Number'
+    static double divide(const Number& arr1, const Number& arr2, const Number& scalar) {
+                                                                       ^
+/Users/asada/Documents/MyWorkplace/doautotest/deepseekv3_java_to_cpp_autotest/FunctionBuildTest/src/function_numpy_divide.cpp:9:39: error: unknown type name 'Number'
+            double divideArrays(const Number& a1, const Number& a2) {
+                                      ^
+/Users/asada/Documents/MyWorkplace/doautotest/deepseekv3_java_to_cpp_autotest/FunctionBuildTest/src/function_numpy_divide.cpp:9:57: error: unknown type name 'Number'
+            double divideArrays(const Number& a1, const Number& a2) {
+                                                        ^
+/Users/asada/Documents/MyWorkplace/doautotest/deepseekv3_java_to_cpp_autotest/FunctionBuildTest/src/function_numpy_divide.cpp:19:41: error: unknown type name 'Number'
+            double divideByScalar(const Number& a1, const Number& scalarValue) {
+                                        ^
+/Users/asada/Documents/MyWorkplace/doautotest/deepseekv3_java_to_cpp_autotest/FunctionBuildTest/src/function_numpy_divide.cpp:19:59: error: unknown type name 'Number'
+            double divideByScalar(const Number& a1, const Number& scalarValue) {
+                                                          ^
+7 errors generated.
+[51/77] Building CXX object CMakeFiles/my_project.dir/src/function_levenshtein_setratio.cpp.o
+[52/77] Building CXX object CMakeFiles/my_project.dir/src/function_nltk_jaccard_distance.cpp.o
+[53/77] Building CXX object CMakeFiles/my_project.dir/src/function_nltk_chartparser.cpp.o
+[54/77] Building CXX object CMakeFiles/my_project.dir/src/function_numpy_where.cpp.o
+[55/77] Building CXX object CMakeFiles/my_project.dir/src/function_numpy_reshape.cpp.o
+FAILED: CMakeFiles/my_project.dir/src/function_numpy_reshape.cpp.o 
+/Library/Developer/CommandLineTools/usr/bin/c++  -I/Users/asada/vcpkg/installed/arm64-osx/include -I/Users/asada/vcpkg/installed/arm64-osx/share/rapidjson/../../include -I/Users/asada/vcpkg/installed/arm64-osx/include/eigen3 -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=12.5 -MD -MT CMakeFiles/my_project.dir/src/function_numpy_reshape.cpp.o -MF CMakeFiles/my_project.dir/src/function_numpy_reshape.cpp.o.d -o CMakeFiles/my_project.dir/src/function_numpy_reshape.cpp.o -c /Users/asada/Documents/MyWorkplace/doautotest/deepseekv3_java_to_cpp_autotest/FunctionBuildTest/src/function_numpy_reshape.cpp
+/Users/asada/Documents/MyWorkplace/doautotest/deepseekv3_java_to_cpp_autotest/FunctionBuildTest/src/function_numpy_reshape.cpp:4:10: fatal error: 'nd4j/NDArray.h' file not found
+#include <nd4j/NDArray.h>
+         ^~~~~~~~~~~~~~~~
+1 error generated.
+[56/77] Building CXX object CMakeFiles/my_project.dir/src/function_numpy_sort.cpp.o
+[57/77] Building CXX object CMakeFiles/my_project.dir/src/function_nltk_probability.cpp.o
+[58/77] Building CXX object CMakeFiles/my_project.dir/src/function_pandas_fill_missing.cpp.o
+[59/77] Building CXX object CMakeFiles/my_project.dir/src/function_pandas_mean.cpp.o
+[60/77] Building CXX object CMakeFiles/my_project.dir/src/function_pandas_standardize.cpp.o
+[61/77] Building CXX object CMakeFiles/my_project.dir/src/function_pyphonetics_distance.cpp.o
+FAILED: CMakeFiles/my_project.dir/src/function_pyphonetics_distance.cpp.o 
+/Library/Developer/CommandLineTools/usr/bin/c++  -I/Users/asada/vcpkg/installed/arm64-osx/include -I/Users/asada/vcpkg/installed/arm64-osx/share/rapidjson/../../include -I/Users/asada/vcpkg/installed/arm64-osx/include/eigen3 -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=12.5 -MD -MT CMakeFiles/my_project.dir/src/function_pyphonetics_distance.cpp.o -MF CMakeFiles/my_project.dir/src/function_pyphonetics_distance.cpp.o.d -o CMakeFiles/my_project.dir/src/function_pyphonetics_distance.cpp.o -c /Users/asada/Documents/MyWorkplace/doautotest/deepseekv3_java_to_cpp_autotest/FunctionBuildTest/src/function_pyphonetics_distance.cpp
+/Users/asada/Documents/MyWorkplace/doautotest/deepseekv3_java_to_cpp_autotest/FunctionBuildTest/src/function_pyphonetics_distance.cpp:4:10: fatal error: 'RefinedSoundex.h' file not found
+#include "RefinedSoundex.h"
+         ^~~~~~~~~~~~~~~~~~
+1 error generated.
+[62/77] Building CXX object CMakeFiles/my_project.dir/src/function_request_head.cpp.o
+FAILED: CMakeFiles/my_project.dir/src/function_request_head.cpp.o 
+/Library/Developer/CommandLineTools/usr/bin/c++  -I/Users/asada/vcpkg/installed/arm64-osx/include -I/Users/asada/vcpkg/installed/arm64-osx/share/rapidjson/../../include -I/Users/asada/vcpkg/installed/arm64-osx/include/eigen3 -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=12.5 -MD -MT CMakeFiles/my_project.dir/src/function_request_head.cpp.o -MF CMakeFiles/my_project.dir/src/function_request_head.cpp.o.d -o CMakeFiles/my_project.dir/src/function_request_head.cpp.o -c /Users/asada/Documents/MyWorkplace/doautotest/deepseekv3_java_to_cpp_autotest/FunctionBuildTest/src/function_request_head.cpp
+/Users/asada/Documents/MyWorkplace/doautotest/deepseekv3_java_to_cpp_autotest/FunctionBuildTest/src/function_request_head.cpp:1:10: fatal error: 'cpprest/http_client.h' file not found
+#include <cpprest/http_client.h>
+         ^~~~~~~~~~~~~~~~~~~~~~~
+1 error generated.
+[63/77] Building CXX object CMakeFiles/my_project.dir/src/function_pyphonetics_phonetics.cpp.o
+FAILED: CMakeFiles/my_project.dir/src/function_pyphonetics_phonetics.cpp.o 
+/Library/Developer/CommandLineTools/usr/bin/c++  -I/Users/asada/vcpkg/installed/arm64-osx/include -I/Users/asada/vcpkg/installed/arm64-osx/share/rapidjson/../../include -I/Users/asada/vcpkg/installed/arm64-osx/include/eigen3 -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=12.5 -MD -MT CMakeFiles/my_project.dir/src/function_pyphonetics_phonetics.cpp.o -MF CMakeFiles/my_project.dir/src/function_pyphonetics_phonetics.cpp.o.d -o CMakeFiles/my_project.dir/src/function_pyphonetics_phonetics.cpp.o -c /Users/asada/Documents/MyWorkplace/doautotest/deepseekv3_java_to_cpp_autotest/FunctionBuildTest/src/function_pyphonetics_phonetics.cpp
+/Users/asada/Documents/MyWorkplace/doautotest/deepseekv3_java_to_cpp_autotest/FunctionBuildTest/src/function_pyphonetics_phonetics.cpp:2:10: fatal error: 'soundex.h' file not found
+#include <soundex.h>
+         ^~~~~~~~~~~
+1 error generated.
+[64/77] Building CXX object CMakeFiles/my_project.dir/src/function_pyphonetics_metaphone.cpp.o
+FAILED: CMakeFiles/my_project.dir/src/function_pyphonetics_metaphone.cpp.o 
+/Library/Developer/CommandLineTools/usr/bin/c++  -I/Users/asada/vcpkg/installed/arm64-osx/include -I/Users/asada/vcpkg/installed/arm64-osx/share/rapidjson/../../include -I/Users/asada/vcpkg/installed/arm64-osx/include/eigen3 -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=12.5 -MD -MT CMakeFiles/my_project.dir/src/function_pyphonetics_metaphone.cpp.o -MF CMakeFiles/my_project.dir/src/function_pyphonetics_metaphone.cpp.o.d -o CMakeFiles/my_project.dir/src/function_pyphonetics_metaphone.cpp.o -c /Users/asada/Documents/MyWorkplace/doautotest/deepseekv3_java_to_cpp_autotest/FunctionBuildTest/src/function_pyphonetics_metaphone.cpp
+/Users/asada/Documents/MyWorkplace/doautotest/deepseekv3_java_to_cpp_autotest/FunctionBuildTest/src/function_pyphonetics_metaphone.cpp:2:10: fatal error: 'DoubleMetaphone.h' file not found
+#include <DoubleMetaphone.h>
+         ^~~~~~~~~~~~~~~~~~~
+1 error generated.
+[65/77] Building CXX object CMakeFiles/my_project.dir/src/function_pandas_pivot_table.cpp.o
+[66/77] Building CXX object CMakeFiles/my_project.dir/src/function_pyphonetics_sounds_like.cpp.o
+FAILED: CMakeFiles/my_project.dir/src/function_pyphonetics_sounds_like.cpp.o 
+/Library/Developer/CommandLineTools/usr/bin/c++  -I/Users/asada/vcpkg/installed/arm64-osx/include -I/Users/asada/vcpkg/installed/arm64-osx/share/rapidjson/../../include -I/Users/asada/vcpkg/installed/arm64-osx/include/eigen3 -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=12.5 -MD -MT CMakeFiles/my_project.dir/src/function_pyphonetics_sounds_like.cpp.o -MF CMakeFiles/my_project.dir/src/function_pyphonetics_sounds_like.cpp.o.d -o CMakeFiles/my_project.dir/src/function_pyphonetics_sounds_like.cpp.o -c /Users/asada/Documents/MyWorkplace/doautotest/deepseekv3_java_to_cpp_autotest/FunctionBuildTest/src/function_pyphonetics_sounds_like.cpp
+/Users/asada/Documents/MyWorkplace/doautotest/deepseekv3_java_to_cpp_autotest/FunctionBuildTest/src/function_pyphonetics_sounds_like.cpp:2:10: fatal error: 'soundex.h' file not found
+#include <soundex.h>
+         ^~~~~~~~~~~
+1 error generated.
+[67/77] Building CXX object CMakeFiles/my_project.dir/src/function_request_get.cpp.o
+FAILED: CMakeFiles/my_project.dir/src/function_request_get.cpp.o 
+/Library/Developer/CommandLineTools/usr/bin/c++  -I/Users/asada/vcpkg/installed/arm64-osx/include -I/Users/asada/vcpkg/installed/arm64-osx/share/rapidjson/../../include -I/Users/asada/vcpkg/installed/arm64-osx/include/eigen3 -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=12.5 -MD -MT CMakeFiles/my_project.dir/src/function_request_get.cpp.o -MF CMakeFiles/my_project.dir/src/function_request_get.cpp.o.d -o CMakeFiles/my_project.dir/src/function_request_get.cpp.o -c /Users/asada/Documents/MyWorkplace/doautotest/deepseekv3_java_to_cpp_autotest/FunctionBuildTest/src/function_request_get.cpp
+/Users/asada/Documents/MyWorkplace/doautotest/deepseekv3_java_to_cpp_autotest/FunctionBuildTest/src/function_request_get.cpp:1:10: fatal error: 'cpprest/http_client.h' file not found
+#include <cpprest/http_client.h>
+         ^~~~~~~~~~~~~~~~~~~~~~~
+1 error generated.
+[68/77] Building CXX object CMakeFiles/my_project.dir/src/function_spacy_load.cpp.o
+FAILED: CMakeFiles/my_project.dir/src/function_spacy_load.cpp.o 
+/Library/Developer/CommandLineTools/usr/bin/c++  -I/Users/asada/vcpkg/installed/arm64-osx/include -I/Users/asada/vcpkg/installed/arm64-osx/share/rapidjson/../../include -I/Users/asada/vcpkg/installed/arm64-osx/include/eigen3 -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=12.5 -MD -MT CMakeFiles/my_project.dir/src/function_spacy_load.cpp.o -MF CMakeFiles/my_project.dir/src/function_spacy_load.cpp.o.d -o CMakeFiles/my_project.dir/src/function_spacy_load.cpp.o -c /Users/asada/Documents/MyWorkplace/doautotest/deepseekv3_java_to_cpp_autotest/FunctionBuildTest/src/function_spacy_load.cpp
+/Users/asada/Documents/MyWorkplace/doautotest/deepseekv3_java_to_cpp_autotest/FunctionBuildTest/src/function_spacy_load.cpp:5:10: fatal error: 'stanfordnlp/StanfordCoreNLP.h' file not found
+#include <stanfordnlp/StanfordCoreNLP.h>
+         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1 error generated.
+[69/77] Building CXX object CMakeFiles/my_project.dir/src/function_request_delete.cpp.o
+[70/77] Building CXX object CMakeFiles/my_project.dir/src/function_spacy_pos.cpp.o
+FAILED: CMakeFiles/my_project.dir/src/function_spacy_pos.cpp.o 
+/Library/Developer/CommandLineTools/usr/bin/c++  -I/Users/asada/vcpkg/installed/arm64-osx/include -I/Users/asada/vcpkg/installed/arm64-osx/share/rapidjson/../../include -I/Users/asada/vcpkg/installed/arm64-osx/include/eigen3 -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=12.5 -MD -MT CMakeFiles/my_project.dir/src/function_spacy_pos.cpp.o -MF CMakeFiles/my_project.dir/src/function_spacy_pos.cpp.o.d -o CMakeFiles/my_project.dir/src/function_spacy_pos.cpp.o -c /Users/asada/Documents/MyWorkplace/doautotest/deepseekv3_java_to_cpp_autotest/FunctionBuildTest/src/function_spacy_pos.cpp
+/Users/asada/Documents/MyWorkplace/doautotest/deepseekv3_java_to_cpp_autotest/FunctionBuildTest/src/function_spacy_pos.cpp:5:10: fatal error: 'stanfordnlp/StanfordCoreNLP.h' file not found
+#include <stanfordnlp/StanfordCoreNLP.h>
+         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1 error generated.
+[71/77] Building CXX object CMakeFiles/my_project.dir/src/function_request_post.cpp.o
+FAILED: CMakeFiles/my_project.dir/src/function_request_post.cpp.o 
+/Library/Developer/CommandLineTools/usr/bin/c++  -I/Users/asada/vcpkg/installed/arm64-osx/include -I/Users/asada/vcpkg/installed/arm64-osx/share/rapidjson/../../include -I/Users/asada/vcpkg/installed/arm64-osx/include/eigen3 -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=12.5 -MD -MT CMakeFiles/my_project.dir/src/function_request_post.cpp.o -MF CMakeFiles/my_project.dir/src/function_request_post.cpp.o.d -o CMakeFiles/my_project.dir/src/function_request_post.cpp.o -c /Users/asada/Documents/MyWorkplace/doautotest/deepseekv3_java_to_cpp_autotest/FunctionBuildTest/src/function_request_post.cpp
+/Users/asada/Documents/MyWorkplace/doautotest/deepseekv3_java_to_cpp_autotest/FunctionBuildTest/src/function_request_post.cpp:5:10: fatal error: 'json/json.h' file not found
+#include <json/json.h>
+         ^~~~~~~~~~~~~
+1 error generated.
+[72/77] Building CXX object CMakeFiles/my_project.dir/src/function_spacy_dep.cpp.o
+FAILED: CMakeFiles/my_project.dir/src/function_spacy_dep.cpp.o 
+/Library/Developer/CommandLineTools/usr/bin/c++  -I/Users/asada/vcpkg/installed/arm64-osx/include -I/Users/asada/vcpkg/installed/arm64-osx/share/rapidjson/../../include -I/Users/asada/vcpkg/installed/arm64-osx/include/eigen3 -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=12.5 -MD -MT CMakeFiles/my_project.dir/src/function_spacy_dep.cpp.o -MF CMakeFiles/my_project.dir/src/function_spacy_dep.cpp.o.d -o CMakeFiles/my_project.dir/src/function_spacy_dep.cpp.o -c /Users/asada/Documents/MyWorkplace/doautotest/deepseekv3_java_to_cpp_autotest/FunctionBuildTest/src/function_spacy_dep.cpp
+/Users/asada/Documents/MyWorkplace/doautotest/deepseekv3_java_to_cpp_autotest/FunctionBuildTest/src/function_spacy_dep.cpp:7:10: fatal error: 'stanfordnlp/StanfordCoreNLP.h' file not found
+#include <stanfordnlp/StanfordCoreNLP.h>
+         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1 error generated.
+[73/77] Building CXX object CMakeFiles/my_project.dir/src/function_networkx_connected_components.cpp.o
+[74/77] Building CXX object CMakeFiles/my_project.dir/src/function_networkx_dijkstra_path.cpp.o
+[75/77] Building CXX object CMakeFiles/my_project.dir/src/function_spacy_vector.cpp.o
+FAILED: CMakeFiles/my_project.dir/src/function_spacy_vector.cpp.o 
+/Library/Developer/CommandLineTools/usr/bin/c++  -I/Users/asada/vcpkg/installed/arm64-osx/include -I/Users/asada/vcpkg/installed/arm64-osx/share/rapidjson/../../include -I/Users/asada/vcpkg/installed/arm64-osx/include/eigen3 -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=12.5 -MD -MT CMakeFiles/my_project.dir/src/function_spacy_vector.cpp.o -MF CMakeFiles/my_project.dir/src/function_spacy_vector.cpp.o.d -o CMakeFiles/my_project.dir/src/function_spacy_vector.cpp.o -c /Users/asada/Documents/MyWorkplace/doautotest/deepseekv3_java_to_cpp_autotest/FunctionBuildTest/src/function_spacy_vector.cpp
+/Users/asada/Documents/MyWorkplace/doautotest/deepseekv3_java_to_cpp_autotest/FunctionBuildTest/src/function_spacy_vector.cpp:44:71: error: no member named 'setprecision' in namespace 'std'
+                oss << token.at("word") << ": " << std::fixed << std::setprecision(6) << vectorLength;
+                                                                 ~~~~~^
+1 error generated.
+[76/77] Building CXX object CMakeFiles/my_project.dir/src/function_networkx_diameter.cpp.o
+ninja: build stopped: cannot make progress due to previous errors.
