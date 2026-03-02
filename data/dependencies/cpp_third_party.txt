@@ -1,9 +1,9 @@
 boost
+cli11
 clang
-CLI
 cryptopp
 date
-Eigen
+eigen3
 fasttext
 fmt
 indicators
@@ -12,7 +12,7 @@ libxml2
 llvm
 nlohmann-json
 plplot
-range
+range-v3
 rapidjson
 sqlite3
 xgboost
