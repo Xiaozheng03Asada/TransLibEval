@@ -3,7 +3,7 @@
 ## Paper Information
 - **Title**: TransLibEval: Demystify Large Language Models' Capability in Third-Party Library-Targeted Code Translation
 - **FSE 2026 Paper ID**: [填写你的论文编号]
-- **Artifact DOI**: [10.5281/zenodo.18837085](https://doi.org/10.5281/zenodo.18837085)
+- **Artifact DOI**: [10.5281/zenodo.19492759](https://doi.org/10.5281/zenodo.19492759)
 
 ## Badges Applied For
 We are applying for the following ACM Artifact Review badges:
